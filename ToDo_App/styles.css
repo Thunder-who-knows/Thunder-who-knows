@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(249, 233, 203);
+    text-align: center;
+    font-family: "Montserrat Alternates","FontAwesome";
+}
+
+#header h1 {
+    font-family: "Tourney";
+    font-size: 3rem;
+    color: rgb(255 109 109);
+    text-shadow:  18px 11px 20px rgba(0,0,0, 0.3);
+}
+
+#main {
+    margin: 0 auto;
+    padding: 36px;
+    width: 40%;
+    text-align: left;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 18px 11px 20px rgba(0,0,0, 0.3);
+}
+
+#main #user-entry {
+    margin: 0 auto 40px;
+    /* width: 80%; */
+    width: 60%;
+    display: flex;
+}
+
+#user-entry input {
+    padding: 3px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+#user-entry button {
+    font: inherit;
+    font-size: 1.7rem;
+    background-color: transparent;
+    border-width: 0;
+}
+
+#main ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.checked p {
+    color: rgb(108, 104, 104);
+}
+.checked .text {
+    text-decoration: line-through;
+}
+
+#main span.tick {
+    font-family: Font-awesome;
+}

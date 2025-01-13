@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Font-Awesome';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fa-regular-400.woff2') format('woff2'),
+}
